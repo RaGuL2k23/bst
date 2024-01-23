@@ -66,8 +66,8 @@ let depthResult = bst.depth(depthValue);
 console.log(`Depth of ${depthValue}:`, depthResult);
 
 // Calculate height of the BST
-let heightResult = bst.height();
-console.log("Height of BST:", heightResult);
+let heightResult = bst.height(this.root);
+console.log("Height of BST (root):", heightResult);
 
 // Calculate height of a specified value recursively
 let heightRecursiveValue = 100;
